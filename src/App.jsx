@@ -1,8 +1,16 @@
-import { Header } from "./components/Header"
+import { Header } from "./components/Header";
+import styles from './App.module.css';
 
 function App() {
     return (
-        <Header />
+        <>
+            <Header />
+
+            <div className={styles.wrapper}>
+                <aside>Sidebar</aside>
+                <main></main>
+            </div>
+        </>
     )
 }
 
