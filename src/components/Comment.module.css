@@ -22,7 +22,7 @@
 
 .commentContent header{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -42,10 +42,49 @@
     color: var(--gray-400);
 }
 
-.commentContent button{
+.commentContent header button{
+    background-color: transparent;
+    border: 0;
+    line-height: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    border-radius: 2px;
+    transition: color 0.3s;
+}
+
+.commentContent header button:hover{
+   color: var(--red-500);
+}
+
+.commentContent p{
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.commentBox footer{
+    margin-top: 1rem;
+}
+
+.commentBox footer button{
     background-color: transparent;
     border: 0;
     color: var(--gray-400);
     cursor: pointer;
-    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.commentBox footer button:hover{
+    color: var(--green-300);
+}
+
+.commentBox footer button svg{
+    margin-right: 0.5rem;
+}
+
+.commentBox footer button span::before{
+    content: '\2022';
+    padding: 0 0.25rem;
 }
