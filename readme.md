@@ -12,6 +12,7 @@ Social media with react js
 - Typescript
 - date-fns
 - phosphor-react
+- Vite
 
 ### Instalação
 1. Clone o repositório
