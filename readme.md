@@ -6,6 +6,10 @@ Social media with react js
 
 <img src="./Capa.png" /> <br/> <br/>
 
+## Funcionalidades da aplicação
+- Listagem de posts
+- Adicionar comentários
+
 ## Stack
 
 - React
